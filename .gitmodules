@@ -1,0 +1,3 @@
+[submodule "vendor/framywork"]
+	path = vendor/framywork
+	url = git@gitlab.com:didream/framywork.git
