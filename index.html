@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Facturae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <section class="uploaderForm">
+      <div class="uploader">
+        <label for="uploader-input" class="uploaderFile"></label>
+        <input class="form-control" type="file" id="uploader-input" name="file" placeholder="Fichero">
+      </div>
+      <div class="form-input">
+        <input type="text" placeholder="Separador" id="separator" class="form-control separator" value=",">
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js"></script>
+    
+    <script src="/assets/js/csv2json.js"></script>
+    <script src="/assets/js/index.js"></script>
+
+  </body>
+</html>
